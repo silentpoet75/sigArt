@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signature Artworks</title>
+  <link rel="stylesheet" href="../dist/idangerous.swiper.css">
+   <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+    <div id="logobar">
+      <h1>Signature Artworks</h1>
+
+    </div>
+<div id="topnav">
+
+<nav id="nav" >
+  <ul>
+    <li><a href="#"><img src="img/perfume.jpg" alt="perfume"></a></li>
+    <li><a href="#"><img src="img/soap.jpg" alt="soap"></a></li>
+    <li><a href="#"><img src="img/deoderant.jpg" alt="doederant"></a></li>
+    <li><a href="#"><img src="img/lotion.jpg" alt="lotion"></a></li>
+  </ul>
+</nav>
+</div>
+<button id="search" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-search"><img src="img/search.jpg" alt="search"></button>
+</div>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide red-slide">
+        <div><img src="img/testimonial.jpg" alt="Testimonial"></div>
+      </div>
+      <div class="swiper-slide blue-slide">
+        <div><img src="img/sheabutter.jpg" alt="Shea butter in raw form"></div>
+      </div>
+      <div class="swiper-slide orange-slide">
+        <div><img src="img/shower.jpg" alt="Woman in shower"></div>
+      </div>
+      <div class="swiper-slide green-slide">
+        <div><img src="img/soap.jpg" alt="Bar of Soap"></div> 
+      </div>
+      <div class="swiper-slide pink-slide">
+        <div><img src="img/cocobutter.jpg" alt="cocoa butter on a leaf"></div>
+      </div>
+      <div class="swiper-slide blue-slide">
+        <div><img src="img/lotion.jpg" alt="Lotion"></div>
+      </div>
+    </div>
+    <div class="pagination"></div>
+  </div>
+  </div>
+
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script src="../dist/idangerous.swiper.min.js"></script>
+  <script>
+  var mySwiper = new Swiper('.swiper-container',{
+    pagination: '.pagination',
+    paginationClickable: true,
+    slidesPerView: 3,
+    loop: true
+  })
+  </script>
+</body>
+</html>
